@@ -3,17 +3,6 @@
 	"atomic_save": false,
 	"auto_complete": true,
 	"auto_complete_delay": 100,
-	"auto_complete_triggers":
-	[
-		{
-			"characters": "@",
-			"selector": "variables.less"
-		},
-		{
-			"characters": "@",
-			"selector": "/bioiq/.src/theme/less/variables.less"
-		}
-	],
 	"bold_folder_labels": false,
 	"caret_extra_bottom": 1,
 	"caret_extra_top": 1,
@@ -60,15 +49,25 @@
 		"*.db",
 		"*.sublime-workspace"
 	],
-	"font_face": "InputMono Light",
+	"font_face": "Roboto Mono",
 	"font_options":
 	[
 		"no_bold"
 	],
-	"font_size": 9,
+	"font_size": 10,
 	"fonts_list":
 	[
+		"InputMono",
 		"InputMono Light",
+		"Roboto Mono",
+		"Iosevka",
+		"Kawkab Mono Light",
+		"CamingoCode",
+		"Anonymous Pro",
+		"Bront",
+		"AverageMono",
+		"Aurulent Sans Mono",
+		"Courier Prime Code",
 		"Hack",
 		"Monaco",
 		"Cousine",
@@ -103,8 +102,8 @@
 	[
 		"draw_active"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
 	"margin": 0,
 	"match_selection": false,
 	"overlay_scroll_bars": "enabled",
