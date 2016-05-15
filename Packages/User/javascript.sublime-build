@@ -1,0 +1,4 @@
+{
+	"cmd": ["C:/progra~1/nodejs/node.exe", "$file"],
+	"selector": "source.js"
+}

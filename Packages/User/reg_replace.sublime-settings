@@ -1,0 +1,14 @@
+{
+    "replacements": {
+        "comment_console_logs": {
+            "find" : "(console\\.log\\(.*?\\))",
+            "replace": "//\\1",
+            "greedy_replace": true
+        },
+        "uncomment_console_logs": {
+            "find" : "(\\/\\/)(console\\.log\\(.*?\\))",
+            "replace": "\\2",
+            "greedy_replace": true
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+	"always_show_minimap_viewport": false,
+	"atomic_save": false,
+	"auto_complete": true,
+	"auto_complete_delay": 100,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "@",
+			"selector": "variables.less"
+		},
+		{
+			"characters": "@",
+			"selector": "/bioiq/.src/theme/less/variables.less"
+		}
+	],
+	"bold_folder_labels": false,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
+	"caret_extra_width": 0,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/Fade to Grey (SL).tmTheme",
+	"draw_indent_guides": true,
+	"draw_minimap_border": true,
+	"enable_tab_scrolling": true,
+	"enable_telemetry": false,
+	"fade_fold_buttons": true,
+	"file_exclude_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"font_face": "InputMono Light",
+	"font_options":
+	[
+		"no_bold"
+	],
+	"font_size": 9,
+	"fonts_list":
+	[
+		"InputMono Light",
+		"Hack",
+		"Monaco",
+		"Cousine",
+		"Fira Code",
+		"Fira Mono",
+		"saxMono",
+		"Oxygen Mono",
+		"NotCourierSans",
+		"Lekton",
+		"Vera Sans Mono",
+		"Roboto",
+		"Meslo LG M DZ",
+		"DejaVu Sans Mono",
+		"Source Code Pro",
+		"Consolas",
+		"Liberation Mono",
+		"Hermit",
+		"Fantasque Sans Mono",
+		"Envy Code R",
+		"Edlo",
+		"PT Mono",
+		"Ubuntu Mono"
+	],
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Theme - amCoder",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"margin": 0,
+	"match_selection": false,
+	"overlay_scroll_bars": "enabled",
+	"scroll_past_end": false,
+	"scroll_speed": 0.4,
+	"show_encoding": true,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"show_tab_close_buttons": true,
+	"tab_size": 2,
+	"theme": "amCoder2.sublime-theme",
+	"wide_caret": false,
+	"word_wrap": false
+}

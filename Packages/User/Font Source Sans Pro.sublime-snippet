@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@import "//fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600";
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fonts</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

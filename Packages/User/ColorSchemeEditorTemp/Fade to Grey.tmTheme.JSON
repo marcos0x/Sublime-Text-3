@@ -1,0 +1,182 @@
+{
+    "colorSpaceName": "sRGB",
+    "name": "Fade to Grey",
+    "semanticClass": "theme.dark.fade_to_grey",
+    "settings": [
+        {
+            "settings": {
+                "background": "#080808",
+                "caret": "#FFFFFF",
+                "foreground": "#FFFFFF",
+                "invisibles": "#404040",
+                "lineHighlight": "#151515",
+                "selection": "#4A8CDBB3"
+            }
+        },
+        {
+            "name": "Text",
+            "scope": "text",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#fff"
+            }
+        },
+        {
+            "name": "Source",
+            "scope": "source",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#fff"
+            }
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#696854"
+            }
+        },
+        {
+            "name": "Block comment",
+            "scope": "comment.block",
+            "settings": {
+                "foreground": "#696854"
+            }
+        },
+        {
+            "name": "Constant",
+            "scope": "constant",
+            "settings": {
+                "foreground": "#96DAFF"
+            }
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#D01D33"
+            }
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "settings": {
+                "foreground": "#FFF"
+            }
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "settings": {
+                "fontStyle": " italic",
+                "foreground": "#A1A1A1"
+            }
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#FFF"
+            }
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#C3C3C3"
+            }
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "settings": {
+                "foreground": "#E3E658"
+            }
+        },
+        {
+            "name": "Regular expression",
+            "scope": "string.regexp",
+            "settings": {
+                "foreground": "#E4F00B"
+            }
+        },
+        {
+            "name": "Type name",
+            "scope": "entity.name.type",
+            "settings": {}
+        },
+        {
+            "name": "Class inheritance",
+            "scope": "entity.other.inherited-class",
+            "settings": {}
+        },
+        {
+            "name": "Tag name",
+            "scope": "meta.tag, meta.tag entity",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#666"
+            }
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#A1A1A1"
+            }
+        },
+        {
+            "name": "Tag attribute value",
+            "scope": "meta.attribute-with-value.id.html, string.quoted.double.html",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#FFC58E"
+            }
+        },
+        {
+            "name": "Support function",
+            "scope": "support.function",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#96DAFF"
+            }
+        },
+        {
+            "name": "Support class",
+            "scope": "support.class",
+            "settings": {
+                "fontStyle": " italic",
+                "foreground": "#A1A1A1"
+            }
+        },
+        {
+            "name": "Haml Prolog Metadata",
+            "scope": "punctuation.definition.prolog.haml",
+            "settings": {
+                "foreground": "#3C2F2B"
+            }
+        },
+        {
+            "name": "Haml Class",
+            "scope": "entity.name.tag.class.haml",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#808080"
+            }
+        },
+        {
+            "name": "Haml ID",
+            "scope": "entity.name.tag.id.haml",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#FF3F52"
+            }
+        }
+    ],
+    "uuid": "AC246647-278B-4F45-9268-9CDAF238288B"
+}

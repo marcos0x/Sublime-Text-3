@@ -1,0 +1,4 @@
+{
+    "cmd": ["C:\\progra~2\\wamp\\bin\\mysql\\mysql5.5.16\\bin\\mysql.exe", "-u", "root", "-e", "source $file", "-v"],
+    "selector": "source.sql"
+}

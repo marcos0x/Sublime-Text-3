@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+App::uses('CakeEmail', 'Network/Email');
+\$Email = new CakeEmail();
+\$Email->from(${1:from});
+\$Email->to(${2:to});
+\$Email->cc(${3:cc});
+\$Email->bcc(${4:bcc});
+\$Email->emailFormat(${5:format});
+\$Email->subject(${6:subject});
+\$Email->send(${7:message});
+]]></content>
+</snippet>

@@ -1,0 +1,49 @@
+[
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+	{ "keys": ["ctrl+shift+,"], "command": "color_pick" },
+	{ "keys": ["ctrl+f12"], "command": "goto_definition" },
+	{ "keys": ["ctrl+shift+c"], "command": "clone_file" },
+	{ "keys": ["shift+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["shift+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+shift+l"],
+		"command": "insert_snippet",
+		"args": {
+			"contents": "console.log(${1:}$SELECTION);${0}"
+		}
+	},
+	{ "keys": ["ctrl+shift+-"],
+		"command": "insert_snippet",
+		"args": {
+			"contents": "pr(${1:}$SELECTION); exit;${0}"
+		}
+	},
+	{ "keys": ["ctrl+shift+."],
+		"command": "insert_snippet",
+		"args": {
+			"contents": "pr(${1:}$SELECTION); ${0}"
+		}
+	},
+	{ "keys": ["ctrl+shift+,"],
+		"command": "insert_snippet",
+		"args": {
+			"contents": "<?= ${1:}$SELECTION; ?>${0}"
+		}
+	},
+  {
+      "keys": ["ctrl+shift+r"], "command": "browser_refresh", "args": {
+          "auto_save": true,
+          "delay": 0.5,
+          "activate_browser": true,
+          "browser_name" : "Firefox"
+      }
+  },
+	{ "keys": ["ctrl+."], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+
+  { "keys": ["shift+alt+up"],   "command": "inc_dec_value", "args": { "action": "inc_max" } },
+  { "keys": ["shift+alt+down"], "command": "inc_dec_value", "args": { "action": "dec_max" } },
+  { "keys": ["shift+alt+insert"],"command":"inc_dec_value", "args": { "action": "ins_max" } },
+
+  { "keys": ["shift+alt+ctrl+up"],  "command": "inc_dec_value", "args": { "action": "inc_all" } },
+  { "keys": ["shift+alt+ctrl+down"],"command": "inc_dec_value", "args": { "action": "dec_all" } },
+  { "keys": ["shift+alt+ctrl+insert"],"command":"inc_dec_value","args": { "action": "ins_all" } }
+]

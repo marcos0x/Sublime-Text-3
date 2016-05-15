@@ -1,0 +1,37 @@
+[
+	{
+		"caption": "Reg Replace: HTML5 Remove Deprecated Type Attr",
+		"command": "reg_replace",
+		"args": {"replacements": ["html5_remove_deprecated_type_attr"]}
+	},
+	{
+		"caption": "Reg Replace: Remove Trailing Spaces",
+		"command": "reg_replace",
+		"args": {"replacements": ["remove_trailing_spaces"]}
+	},
+	{
+		"caption": "Reg Replace: Remove HTML Comments and Trailing Spaces",
+		"command": "reg_replace",
+		"args": {"replacements": ["remove_html_comments", "remove_trailing_spaces"]}
+	},
+	{
+		"caption": "Reg Replace: Remove Json Dangling Commas",
+		"command": "reg_replace",
+		"args": {"replacements": ["remove_json_dangling_commas"]}
+	},
+	{
+		"caption": "Reg Replace: Remove Comments",
+		"command": "reg_replace",
+		"args": {"replacements": ["remove_comments"]}
+	},
+	{
+		"caption": "Reg Replace: Comment Console Logs",
+		"command": "reg_replace",
+		"args": {"replacements": ["comment_console_logs"]}
+	},
+	{
+		"caption": "Reg Replace: Uncomment Console Logs",
+		"command": "reg_replace",
+		"args": {"replacements": ["uncomment_console_logs"]}
+	}
+]

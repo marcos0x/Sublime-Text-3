@@ -1,0 +1,15 @@
+{
+    "Mailboxs": [
+        {
+            "identity": "markosonline@gmail.com",
+            "authentication": "oauth",
+            "parameters": {
+            	"name": "Marcos",
+              "client_id": "563994287628-cnhan00ap2fcpjn5121g9ont9bgu1sgq.apps.googleusercontent.com",
+              "client_secret": "x5M0sascLIZ4kfArk7BQeuFX",
+              "tls": "yes",
+              "default": "yes"
+            }
+        }
+    ]
+}

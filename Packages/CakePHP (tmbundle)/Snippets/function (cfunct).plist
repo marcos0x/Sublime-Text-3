@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * ${4:undocumented function}
+ *
+ * ${5:function description} 
+ *
+ * ${6:@param ${7:string} ${8:\$var} ${9:description}  } 
+ * @return ${10:void}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}$11
+ **/
+$1function $2($3) {
+	$0
+}</string>
+	<key>name</key>
+	<string>function</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>funct</string>
+	<key>uuid</key>
+	<string>A7B72B5C-5E87-44CA-9FDF-6CF6FA3C50F5</string>
+</dict>
+</plist>

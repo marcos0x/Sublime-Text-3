@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+switch($1){
+	default:
+${SELECTION/([^\t]*)/$0/g}
+	break;
+}
+
+]]></content>
+</snippet>

@@ -1,0 +1,3 @@
+{
+  "gruntfile_paths": ["src", ".src","./src", "./.src",".\\src", ".\\.src","\\src", "\\.src"]
+}

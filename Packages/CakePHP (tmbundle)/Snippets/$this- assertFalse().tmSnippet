@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;assertFalse(${1:\$result});
+$0</string>
+	<key>name</key>
+	<string>$this-&gt;assertFalse()</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>assertF</string>
+	<key>uuid</key>
+	<string>5F94353B-7F33-488F-97DF-5C36066F2271</string>
+</dict>
+</plist>

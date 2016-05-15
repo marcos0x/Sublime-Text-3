@@ -1,0 +1,60 @@
+[
+	{
+		"caption": "View",
+		"mnemonic": "V",
+		"id": "view",
+		"children":
+		[
+			{
+				"caption": "Layout",
+				"mnemonic": "L",
+				"id": "layout",
+				"children":
+				[
+					{
+						"command": "set_layout",
+						"caption": "2(columns)-1(row) Grid",
+						"args":
+						{
+							"cols": [0.0, 0.5, 1.0],
+							"rows": [0.0, 0.5, 1.0],
+							"cells":
+							[
+								[0, 0, 1, 1], [1, 0, 2, 1],
+										[0, 1, 2, 2]
+							]
+						}
+					},
+					{
+						"command": "set_layout",
+						"caption": "1(row)-2(columns) Grid",
+						"args":
+						{
+							"cols": [0.0, 0.5, 1.0],
+							"rows": [0.0, 0.5, 1.0],
+							"cells":
+							[
+										[0, 0, 2, 1],
+								[0, 1, 1, 2], [1, 1, 2, 2]
+							]
+						}
+					},
+					{
+						"command": "set_layout",
+						"caption": "1(column)-2(rows) Grid",
+						"args":
+						{
+							"cols": [0.0, 0.5, 1.0],
+							"rows": [0.0, 0.5, 1.0],
+							"cells":
+							[
+								[0, 0, 1, 2], [1, 0, 2, 1],
+											  [1, 1, 2, 2]
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+]

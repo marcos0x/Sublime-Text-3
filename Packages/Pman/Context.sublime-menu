@@ -1,0 +1,11 @@
+[
+    { "caption": "-" },
+    {
+        "caption": "Pman",
+        "children":
+        [
+            { "command": "pman_manual_for_selection", "caption": "Consult the manual for selection" },
+            { "command": "pman_manual_for_keyword", "caption": "Consult the manual for keyword" }
+        ]
+    }
+]

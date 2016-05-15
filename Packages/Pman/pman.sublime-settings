@@ -1,0 +1,12 @@
+{
+    // Turn the debug output on/off
+    "show_debug": true,
+
+    // It seems python/sublime cannot always find the pman application
+    // If empty, then use PATH version of pman, else use the set value
+    "pman_executable_path": "/usr/local/bin/pman",
+
+    // It seems python/sublime cannot always find the pman application
+    // If empty, then use PATH version of pman, else use the set value
+    "pman_col_executable_path": "/usr/bin/col"
+}

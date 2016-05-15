@@ -1,0 +1,164 @@
+{
+    "colorSpaceName": "sRGB",
+    "name": "Chuby Ninja",
+    "semanticClass": "theme.dark.chuby_ninja",
+    "settings": [
+        {
+            "settings": {
+                "activeGuide": "#505050",
+                "background": "#0F0F0F",
+                "bracketContentsForeground": "#F8F8F2A5",
+                "bracketContentsOptions": "underline",
+                "bracketsForeground": "#F8F8F2A5",
+                "bracketsOptions": "underline",
+                "caret": "#bbbb33",
+                "findHighlight": "#FFFF92",
+                "findHighlightForeground": "#000000",
+                "foreground": "#ffffff",
+                "invisibles": "#3B3A32",
+                "lineHighlight": "#303030",
+                "selection": "#2E4D0F",
+                "selectionBorder": "#5b991f",
+                "tagsOptions": "stippled_underline"
+            }
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+                "foreground": "#808080"
+            }
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "settings": {
+                "foreground": "#ff9580"
+            }
+        },
+        {
+            "name": "Number",
+            "scope": "constant",
+            "settings": {
+                "foreground": "#ff9580"
+            }
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "settings": {
+                "foreground": "#7acc7c"
+            }
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#7acc7c"
+            }
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword.operator",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#ffad59"
+            }
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#ffffb3"
+            }
+        },
+        {
+            "name": "Storage modifier",
+            "scope": "storage.modifier",
+            "settings": {
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name",
+            "settings": {
+                "foreground": "#99feff"
+            }
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.type",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "settings": {
+                "foreground": "#99feff"
+            }
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "settings": {
+                "foreground": "#99feff"
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "settings": {
+                "background": "#660000",
+                "foreground": "#cccccc"
+            }
+        },
+        {
+            "name": "diff.header",
+            "scope": "meta.diff, meta.diff.header",
+            "settings": {
+                "foreground": "#99feff"
+            }
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "settings": {
+                "foreground": "#ff9580"
+            }
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "settings": {
+                "foreground": "#7acc7c"
+            }
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "settings": {
+                "foreground": "#ffa040"
+            }
+        }
+    ],
+    "uuid": "D8D5E82E-3D5B-46B5-B38E-8C841C21347D"
+}
