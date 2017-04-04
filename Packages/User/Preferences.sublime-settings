@@ -95,6 +95,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"GitSavvy",
+		"JSHint Gutter",
+		"Local History",
+		"SublimeLinter",
 		"Theme - amCoder",
 		"Vintage"
 	],
@@ -116,5 +120,8 @@
 	"tab_size": 2,
 	"theme": "amCoder2.sublime-theme",
 	"wide_caret": false,
-	"word_wrap": false
+	"word_wrap": false,
+	"default_line_ending": "unix",
+  "preview_on_click": false,
+  "index_exclude_patterns": ["*.log",".sql",".gitignore",".gitattributes"],
 }

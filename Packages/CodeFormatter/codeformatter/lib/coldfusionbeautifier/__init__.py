@@ -19,6 +19,7 @@ class BeautifierOptions:
         self.minimum_attribute_count = 2
         self.first_attribute_on_new_line = False
         self.reduce_empty_tags = False
+        self.reduce_whole_word_tags = False
         self.exception_on_tag_mismatch = False
         self.custom_singletons = ''
 
@@ -30,8 +31,9 @@ expand_tags = [%s]
 minimum_attribute_count = %d
 first_attribute_on_new_line = [%s]
 reduce_empty_tags = [%s]
+reduce_whole_word_tags = [%s]
 exception_on_tag_mismatch = [%s]
-custom_singletons = [%s]""" % (self.indent_size, self.indent_char, self.indent_with_tabs, self.expand_tags, self.minimum_attribute_count, self.first_attribute_on_new_line, self.reduce_empty_tags, self.exception_on_tag_mismatch, self.custom_singletons)
+custom_singletons = [%s]""" % (self.indent_size, self.indent_char, self.indent_with_tabs, self.expand_tags, self.minimum_attribute_count, self.first_attribute_on_new_line, self.reduce_empty_tags, self.reduce_whole_word_tags, self.exception_on_tag_mismatch, self.custom_singletons)
 
 def default_options():
     return BeautifierOptions()
@@ -65,6 +67,7 @@ class Beautifier:
         self.minimum_attribute_count = opts.minimum_attribute_count
         self.first_attribute_on_new_line = opts.first_attribute_on_new_line
         self.reduce_empty_tags = opts.reduce_empty_tags
+        self.reduce_whole_word_tags = opts.reduce_whole_word_tags
         self.indent_size = opts.indent_size
         self.indent_char = opts.indent_char
         self.indent_with_tabs = opts.indent_with_tabs
@@ -88,7 +91,7 @@ class Beautifier:
 
     def expand_tag(self,str):
         _str = str.group(0) # cache the original string in a variable for faster access
-        s = re.findall(r'([\w\-]+(?:=(?:"[^"]*"|\'[^\']*\'))?)',_str)
+        s = re.findall(r'(<[\S]+(?:=(?:"[^"]*"|\'[^\']*\'))?)',_str)
         # If the tag has fewer than "minimum_attribute_count" attributes, leave it alone
         if len(s) <= self.minimum_attribute_count: return _str
         tagEnd = re.search(r'/?>$',_str)
@@ -140,7 +143,7 @@ class Beautifier:
 
     def getNextFrom(self,_list):
         it = iter(_list)
-        return lambda match: self.reindent(it.next(),match)
+        return lambda match: self.reindent(next(it),match)
 
     def replace(self,pattern,replaceList,raw): return re.compile(r'(?<=\n)(\s*?)' + pattern,re.S|re.I).sub(self.getNextFrom(replaceList),raw)
     def replace_comments(self,raw): return self.replace(r'/\* COMMENT \*/',self.removed_comments,raw)
@@ -203,6 +206,8 @@ class Beautifier:
         # Put all matched start/end tags with no content between them on the same line and return
         if self.reduce_empty_tags:
             beautiful = re.sub(r'<(\S+)([^>]*)>\s+</\1>',r'<\1\2></\1>',beautiful)
+        if self.reduce_whole_word_tags:
+            beautiful = re.sub(r'<(\S+)([^>]*)>\s+([^<\n]+)\s+</\1>',r'<\1\2>\3</\1>',beautiful)
 
         # Replace JS, CSS, and comments in the opposite order of their removal
         beautiful = self.replace_comments(beautiful)

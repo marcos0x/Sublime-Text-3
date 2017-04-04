@@ -75,7 +75,7 @@ class PhpFormatter:
         cmd.append("-dshort_open_tag=On")
 
         if php55_compat:
-            formatter_path = os.path.join(dirname(realpath(sublime.packages_path())), "Packages", "CodeFormatter", "codeformatter", "lib", "phpbeautifier", "fmt.8.9.0.phar")
+            formatter_path = os.path.join(dirname(realpath(sublime.packages_path())), "Packages", "CodeFormatter", "codeformatter", "lib", "phpbeautifier", "fmt-php55.phar")
         else:
             formatter_path = os.path.join(dirname(realpath(sublime.packages_path())), "Packages", "CodeFormatter", "codeformatter", "lib", "phpbeautifier", "fmt.phar")
 
@@ -136,8 +136,10 @@ class PhpFormatter:
 
 
 
-    def formatOnSaveEnabled(self):
+    def formatOnSaveEnabled(self, file_name):
         format_on_save = False
         if ("format_on_save" in self.opts and self.opts["format_on_save"]):
             format_on_save = self.opts["format_on_save"]
+        if (isinstance(format_on_save, str)):
+            format_on_save = re.search(format_on_save, file_name) != None
         return format_on_save

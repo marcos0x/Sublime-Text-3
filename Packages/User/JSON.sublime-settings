@@ -1,6 +1,10 @@
 {
 	"extensions":
 	[
-		"sublime-commands"
+		"sublime-commands",
+		".jscsrc",
+		".jshintrc",
+		".csslintrc",
+		"cache"
 	]
 }

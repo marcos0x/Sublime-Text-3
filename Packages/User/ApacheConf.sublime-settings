@@ -1,6 +1,9 @@
 {
 	"extensions":
 	[
-		".htaccess"
+		".htaccess",
+		"conf",
+		".htaccess2",
+		"log"
 	]
 }

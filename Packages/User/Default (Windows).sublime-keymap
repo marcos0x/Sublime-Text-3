@@ -45,5 +45,7 @@
 
   { "keys": ["shift+alt+ctrl+up"],  "command": "inc_dec_value", "args": { "action": "inc_all" } },
   { "keys": ["shift+alt+ctrl+down"],"command": "inc_dec_value", "args": { "action": "dec_all" } },
-  { "keys": ["shift+alt+ctrl+insert"],"command":"inc_dec_value","args": { "action": "ins_all" } }
+  { "keys": ["shift+alt+ctrl+insert"],"command":"inc_dec_value","args": { "action": "ins_all" } },
+  { "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" },
+	{ "keys": ["ctrl+shift+t"], "command": "reopen_last_file" }
 ]
